@@ -1,6 +1,6 @@
 # Hello, world!
 #
-# This is an example function named 'hello' 
+# This is an example function named 'hello'
 # which prints 'Hello, world!'.
 #
 # You can learn more about package authoring with RStudio at:
@@ -13,6 +13,18 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-hello <- function() {
-  print("Hello, world!")
+
+
+#'
+#' Calculate the Square of a Variable
+#'
+#' Blacalgkjigjisghldrijgldrij
+#'
+#' @author M. Fortin
+#' @param x a numeric
+#' @return a numeric
+#'
+#' @export
+getSquareOf <- function(x) {
+  return( x * x )
 }

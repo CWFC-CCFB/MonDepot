@@ -28,3 +28,20 @@
 getSquareOf <- function(x) {
   return( x * x )
 }
+
+
+
+#'
+#' Calculate the Square Root of a Variable
+#'
+#' Blacalgkjigjisghldrijgldrij
+#'
+#' @author M. Fortin
+#' @param x a numeric
+#' @return a numeric
+#'
+#' @export
+getSquareRootOf <- function(x) {
+  return( x^.5)
+}
+
